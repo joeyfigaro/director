@@ -1,0 +1,32 @@
+{
+	"name": "director",
+	"version": "0.0.1",
+	"description": "Enhanced node directories",
+	"main": "packaged/index.js",
+	"scripts": {
+	  "lint": "./node_modules/.bin/eslint ./src/**/*",
+	  "compile": "rm -rf lib && ./node_modules/.bin/babel src --out-dir packaged",
+	  "prepublish": "yarn run compile"
+	},
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/joeyfigaro/director.git"
+	},
+	"author": "Joey Figaro <joey@joeyfigaro.com, Gurjit Singh",
+	"license": "MIT",
+	"bugs": {
+	  "url": "https://github.com/joeyfigaro/director/issues"
+	},
+  "dependencies": {
+    "generator-babel": "^2.0.2",
+    "global": "^4.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "6.6.5",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "6.7.2",
+    "eslint-import-resolver-babel-module": "^3.0.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
