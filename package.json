@@ -12,7 +12,7 @@
 	  "type": "git",
 	  "url": "git+https://github.com/joeyfigaro/director.git"
 	},
-	"author": "Joey Figaro <joey@joeyfigaro.com, Gurjit Singh",
+	"author": "Joey Figaro <joey@joeyfigaro.com, Gurjit Singh Mehta <gurjitmehta@gmail.com>",
 	"license": "MIT",
 	"bugs": {
 	  "url": "https://github.com/joeyfigaro/director/issues"
